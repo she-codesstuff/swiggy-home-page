@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: orange;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        li{
+            margin-left: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+       .img2 {
+            display: flex;
+            justify-content: flex-start;
+            height: 40px;
+            width:40px;
+        }
+
+        .food {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: rgb(246, 190, 86);
+        }
+
+
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .popular {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 20px;
+            background-color: rgb(240, 238, 235);
+
+        }
+
+        .card {
+            width: 220px;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+
+
+
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            padding: 20px;
+        }
+
+        .foot {
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="Swiggy_logo.png" alt="swiggylogo" class="img2">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">User ID</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="food">
+        <div class="food-text">
+            <h1>Delicious Food, Delivered Fast</h1>
+            <p>Order your favorite meals and get them delivered right to your doorsteps in minutes.</p>
+            <button>Order Now</button>
+        </div>
+        <img src="food.jpeg" class="img1">
+    </div>
+
+    </div>
+    <h3>Our Popular Dishes</h3>
+    <section class="popular">
+
+        <div class="card">
+            <img src="pasta.jpg" alt="pasta" id="img">
+            <div>pasta</div>
+            <div> 💲25 </div>
+        </div>
+
+        <div class="card">
+            <img src="pizza.jpg" alt="pizza" id="img">
+            <div>pizza</div>
+            <div> 💲25 </div>
+        </div>
+        <div class="card">
+            <img src="burger.jpg" alt="burger" id="img">
+            <div>burger</div>
+            <div> 💲25 </div>
+        </div>
+        <div class="card">
+            <img src="salad.jpg" alt="salad" id="img">
+            <div>Salad</div>
+            <div>💲25 </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot">
+            <div>
+                <h4>About us</h4>
+                <p>We deliver delicious food to your doorsteps quickly and safely.</p>
+            </div>
+            <div>
+                <h4>Contact us</h4>
+                <p>Email: support@gmail.com</p>
+            </div>
+            <div>
+                <h4>Follow us</h4>
+                <p>Instagram | Facebook | Twitter</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
