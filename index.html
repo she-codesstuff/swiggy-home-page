@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @media all {
+            body{
+        background-color:rgb(215, 177, 143);
+            }
+        }
+
         header {
             background-color: orange;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items:center;
         }
@@ -27,7 +34,7 @@
         img {
             width: 200px;
             height: 200px;
-            flex-wrap:wrap;
+            flex-wrap: wrap;
         }
 
        .img2 {
@@ -36,11 +43,11 @@
             height: 40px;
             width:40px;
             align-items: flex-start;
-           
         }
 
         .food {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             padding: 20px;
             background-color: rgb(246, 190, 86);
@@ -162,4 +169,3 @@
 </body>
 
 </html>
-
